@@ -13,7 +13,9 @@ If I was to improve on this code, I would refactor each operation into its own m
 Where non-conforming lines occur (meaning the line does not fit the log format for juju logs), I assumed that the line belonged to the previous 'proper' entry. For example, the log entry:
 
 machine-8: 01:58:19 DEBUG juju.container.kvm kvm-ok output:
+
 INFO: /dev/kvm exists
+
 KVM acceleration can be used
 
 
