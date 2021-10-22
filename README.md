@@ -19,7 +19,9 @@ INFO: /dev/kvm exists
 KVM acceleration can be used
 
 
+
 became one line:
+
 	
 machine-8: 01:58:19 DEBUG juju.container.kvm kvm-ok output: INFO: /dev/kvm exists KVM acceleration can be used
 
