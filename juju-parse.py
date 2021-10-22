@@ -1,9 +1,5 @@
-#The charms that produced warning messages (if not restricted to a single charm)
-#The number of each severity of message.
-#The number of duplicate messages (and their severity).
-#The proportions of each type of log message for each charm (or just the single charm).
-#The total number of log messages per charm.
-#The total number of log messages.
+#Author Anthony Chapman
+#Date 10/22/2021
 
 import argparse
 
