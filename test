@@ -1,0 +1,23 @@
+unit-nova-mysql-router-0: 02:04:19 DEBUG juju.worker.dependency "leadership-tracker" manifold worker started at 2021-01-14 02:04:19.104888732 +0000 UTC
+unit-nova-mysql-router-0: 02:04:19 DEBUG juju.worker.dependency "api-address-updater" manifold worker started at 2021-01-14 02:04:19.105002859 +0000 UTC
+unit-nova-mysql-router-0: 02:04:19 DEBUG juju.worker.dependency "proxy-config-updater" manifold worker started at 2021-01-14 02:04:19.105086477 +0000 UTC
+unit-nova-mysql-router-0: 02:04:19 DEBUG juju.worker.dependency "hook-retry-strategy" manifold worker started at 2021-01-14 02:04:19.107604679 +0000 UTC
+unit-nova-mysql-router-0: 02:04:19 DEBUG juju.worker.logger reconfiguring logging from "<root>=DEBUG" to "<root>=WARNING"
+unit-vault-0: 02:04:20 ERROR unit.vault/0.juju-log certificates:46: Unable to find implementation for relation: peers of vault-ha
+unit-octavia-0: 02:04:23 ERROR juju.worker.uniter.operation hook "install" (via explicit, bespoke hook script) failed: exit status 1
+unit-vault-mysql-router-0: 02:04:25 ERROR unit.vault-mysql-router/0.juju-log Unable to find implementation for relation: requires of juju-info
+unit-rabbitmq-server-0: 02:04:26 WARNING unit.rabbitmq-server/0.juju-log amqp:28: min-cluster-size is not defined, race conditions may occur if this is not a single unit deployment.
+unit-vault-0: 02:04:27 ERROR unit.vault/0.juju-log certificates:40: Unable to find implementation for relation: peers of vault-ha
+controller-0: 01:47:48 INFO juju.worker.apicaller [b97292] "machine-0" successfully connected to "localhost:17070"
+controller-0: 01:47:48 INFO juju.worker.logforwarder config change - log forwarding not enabled
+controller-0: 01:47:48 INFO juju.worker.logger logger worker started
+machine-0: 01:56:55 INFO juju.cmd running jujud [2.8.1 0 16439b3d1c528b7a0e019a16c2122ccfcf6aa41f gc go1.14.4]
+machine-0: 01:56:55 DEBUG juju.cmd   args: []string{"/var/lib/juju/tools/machine-0/jujud", "machine", "--data-dir", "/var/lib/juju", "--machine-id", "0", "--debug"}
+machine-0: 01:56:55 DEBUG juju.utils setting GOMAXPROCS to 1
+machine-0: 01:56:55 DEBUG juju.agent read agent config, format "2.0"
+machine-0: 01:56:55 INFO juju.worker.upgradesteps upgrade steps for 2.8.1 have already been run.
+machine-0: 01:56:55 DEBUG juju.worker.dependency "agent" manifold worker started at 2021-01-14 01:56:55.411598925 +0000 UTC
+machine-0: 01:56:55 DEBUG juju.worker.dependency "upgrade-steps-gate" manifold worker started at 2021-01-14 01:56:55.411812107 +0000 UTC:
+test-extra
+test-extra-2 a a a
+
